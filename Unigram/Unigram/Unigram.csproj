@@ -21,7 +21,7 @@
     <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
-    <PackageCertificateThumbprint>BCF3F68C8F50DE819284C634BE7D5030F61E2216</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>BE3E6216CC0D003A8E91926E986A6C3B721E141A</PackageCertificateThumbprint>
     <BuildAppxSideloadPackageForUap>False</BuildAppxSideloadPackageForUap>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
@@ -1212,7 +1212,6 @@
     <PRIResource Include="Strings\uk\Resources.resw" />
     <PRIResource Include="Strings\nl\Resources.resw" />
     <None Include="Unigram_StoreKey.pfx" />
-    <None Include="Unigram_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Icons\Toast\Send.png" />
@@ -1273,6 +1272,41 @@
     <Content Include="Assets\Logos\Square44x44Logo\Square44x44Logo.targetsize-256_altform-unplated.png" />
     <Content Include="Assets\Logos\Square44x44Logo\Square44x44Logo.targetsize-48.png" />
     <Content Include="Assets\Logos\Square44x44Logo\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\LockScreenLogo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\LockScreenLogo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\LockScreenLogo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\LockScreenLogo.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\SplashScreen.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\SplashScreen.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.altform-unplated_targetsize-24.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Square44x44Logo.targetsize-48.png" />
     <Content Include="Assets\Logos\Square71x71Logo\Square71x71Logo.scale-100.png" />
     <Content Include="Assets\Logos\Square71x71Logo\Square71x71Logo.scale-125.png" />
     <Content Include="Assets\Logos\Square71x71Logo\Square71x71Logo.scale-150.png" />
@@ -1293,6 +1327,16 @@
     <Content Include="..\Assets\StoreLogo\$(ConfigurationName)\StoreLogo.scale-400.png">
       <Link>Assets\Logos\StoreLogo\StoreLogo.scale-400.png</Link>
     </Content>
+    <Content Include="Assets\Logos\Square71x71Logo\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\StoreLogo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\StoreLogo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Logos\Square71x71Logo\Wide310x150Logo.scale-400.png" />
     <Content Include="Assets\Logos\Wide310x150Logo\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Logos\Wide310x150Logo\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Logos\Wide310x150Logo\Wide310x150Logo.scale-150.png" />

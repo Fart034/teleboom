@@ -7,7 +7,8 @@
     <AppxManifest Include="..\Unigram\Package.appxmanifest" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Unigram_StoreKey.pfx" />
-    <None Include="Unigram_TemporaryKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="UnigramHost_StoreKey.pfx" />
+    <None Include="..\..\..\..\..\приложения тв для uwp\telegram руский\teleboom\unigram\unigram\unigram_storekey.pfx" />
   </ItemGroup>
 </Project>

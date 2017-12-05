@@ -47,13 +47,16 @@
     <ClCompile Include="UnigramHost.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Unigram_StoreKey.pfx" />
-    <None Include="Unigram_TemporaryKey.pfx" />
+    <None Include="..\..\..\..\..\приложения тв для uwp\telegram руский\teleboom\unigram\unigram\unigram_storekey.pfx" />
+    <None Include="UnigramHost_StoreKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Unigram.Native\Unigram.Native.vcxproj">
       <Project>{1b521e77-46bd-4d60-89f6-d68e9bb9abff}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0DBCF059-2952-4809-9003-193CA0C6D499}</ProjectGuid>
@@ -128,8 +131,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateThumbprint>065F0B2E6BD36F1FD48AEA0B5546196B98A1546C</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>Unigram_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>308BCE40D990C501488FAD58D4930C73B55667C3</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>UnigramHost_StoreKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <GenerateManifest>false</GenerateManifest>
